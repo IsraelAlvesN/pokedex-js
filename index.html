@@ -17,6 +17,7 @@
 <body>
     <section class="content">
         <h1>Pokedex</h1>
+
         <ol id="pokemonList" class="pokemons">
             <!-- List pokemon here -->
         </ol>
@@ -26,8 +27,46 @@
                 Load More
             </button>
         </div>
-        
     </section>
+
+    <!-- details -->
+    <button id="showAboutBtn" type="button">about</button>
+    <section class="about">
+        <div class="aboutTitle">
+            <span class="aboutName">Bulbasaur</span>
+            <span class="aboutNumber">#0001</span>
+            <ol class="aboutType">
+                <li>Grass</li>
+                <li>Poison</li>
+            </ol>
+        </div>
+        <div class="aboutImg">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="">
+        </div>
+        <div class="aboutInfo">
+            <span class="detailAbout">About</span>
+            <div class="aboutSpecies">
+                <span class="title">Species</span>
+                <span>Seed</span>
+            </div>
+            <div class="aboutHeight">
+                <span class="title">Height</span>
+                <span>1.20</span>
+            </div>
+            <div class="aboutWeight">
+                <span class="title">Weight</span>
+                <span>20</span>
+            </div>
+            <div class="aboutAbilities">
+                <span class="title">Abilities</span>
+                <span>Overgrow</span>
+            </div>
+        </div>
+
+    </section>
+
+
+   
 
     <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/poke-api.js"></script>
