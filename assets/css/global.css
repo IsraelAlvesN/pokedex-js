@@ -13,6 +13,14 @@ body{
     height: 100vh;
     width: 100vw;
 }
+.content div{
+    display: flex;
+    justify-content: center;
+}
+.content img{
+    max-width: 50px;
+    max-height: 50px;
+}
 
 @media screen and (min-width: 992px) {
     .content{

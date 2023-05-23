@@ -4,4 +4,9 @@ class Pokemon{
     types
     types = []
     image
+    species
+    ability
+    abilities = []
+    weight
+    height
 }
