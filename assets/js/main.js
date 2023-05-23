@@ -3,9 +3,10 @@ const pokemonList = document.getElementById('pokemonList')
 const loadMoreBtn = document.getElementById('loadMoreBtn')
 const showAbout   = document.getElementById('showAbout')
 const returnDiv   = document.getElementById('returnDiv')
+const container   = document.getElementById('container')
 
 const limit = 3
-const maxRecords = 5
+const maxRecords = 30
 let offset = 0
 let arrayName = []
 

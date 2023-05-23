@@ -166,7 +166,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 55vh;
 }
 .about{
     width: 80%;
@@ -253,9 +253,68 @@
 .aboutTable{
     padding-bottom: 10px;
     border-bottom: 1px solid #325ab8;
+    font-weight: 700 !important;
+    color: #000 !important;
 }
 
 #returnDiv{
     display: none;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+#returnBtn{
+    cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+    .container{
+        margin-bottom: 100px;
+    }
+    .about {
+        width: 50%;
+    }
+    .aboutImg img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .aboutTitle {
+        padding: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .aboutTitle .aboutName {
+        font-size: 2.5rem;
+    }
+    .aboutType li {
+        font-size: .825rem;
+    }
+    .aboutNumber{
+        font-size: .825rem !important;
+    }
+    .table {
+        justify-content: center;
+        padding: 30px 56px;
+    }
+    .table table th {
+        font-size: 1rem;
+    }
+    .table table td {
+        font-size: 1.225rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .aboutTitle {
+        width: 80%;
+    }
+    .aboutType li {
+        font-size: 1rem;
+    }
+    .aboutNumber{
+        font-size: 1rem !important;
+    }
 }
